@@ -151,4 +151,4 @@ def chatbot_response():
     return jsonify({'response': bot_response})
 
 if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+    app.run(host="0.0.0.0", debug=True)
